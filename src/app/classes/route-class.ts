@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
 import { WelcomeComponent } from '../components/welcome/welcome.component';
-import { ProductListComponent } from "../components/product-list/product-list.component";
-import { ProductDetailsComponent } from "../components/product-details/product-details.component";
+import { ProductListComponent } from "../modules/product/components/product-list/product-list.component";
+import { ProductDetailsComponent } from "../modules/product/components/product-details/product-details.component";
 import { RouteGuard } from '../services/router-guard';
 
 export class RoutesClass {
